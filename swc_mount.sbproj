@@ -1,0 +1,48 @@
+{
+  "Title": "Supreme With Cheese Mount",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "swc_mount",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": [
+    "hamumu_swc_steam"
+  ],
+  "IsStandaloneOnly": false,
+  "Metadata": {
+    "MaxPlayers": 64,
+    "MinPlayers": 1,
+    "TickRate": 50,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "CsProjName": "",
+    "StartupScene": "scenes/minimal.scene",
+    "Compiler": {
+      "RootNamespace": "Duccsoft",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;",
+      "WarningsAsErrors": "",
+      "TreatWarningsAsErrors": false,
+      "Nullables": false,
+      "ReleaseMode": "Debug",
+      "AssemblyReferences": [],
+      "ReplacementDirectives": {
+        ".Server.cs": "SERVER"
+      },
+      "IgnoreFolders": [
+        "editor",
+        "unittest"
+      ],
+      "DistinctAssemblyReferences": []
+    }
+  }
+}
